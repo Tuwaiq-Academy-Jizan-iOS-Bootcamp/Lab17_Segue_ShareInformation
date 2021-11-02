@@ -76,7 +76,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8o-Bp-JVw">
-                                <rect key="frame" x="125" y="422" width="164" height="94"/>
+                                <rect key="frame" x="125" y="341" width="164" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
@@ -89,7 +89,6 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="secondViewController:" destination="Hch-Vn-Wua" eventType="touchUpInside" id="b1d-V9-zZ2"/>
                                     <segue destination="KAJ-6w-a6F" kind="unwind" unwindAction="unwindToRootViewControllerWithSeque:" id="HCL-wX-3L7"/>
                                 </connections>
                             </button>

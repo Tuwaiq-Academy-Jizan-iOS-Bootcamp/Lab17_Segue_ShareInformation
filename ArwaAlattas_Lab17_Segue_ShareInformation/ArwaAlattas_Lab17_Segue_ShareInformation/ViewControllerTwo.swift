@@ -15,15 +15,11 @@ class ViewControllerTwo :UIViewController{
     }
     
     
-    @IBAction func secondViewController(_ sender: Any) {
-    }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let rootVC = segue.destination as! ViewController
+       let rootVC = segue.destination as! ViewController
         
         rootVC.myLabel.text = myTextField.text
     }
-    
 }
 extension ViewControllerTwo:UITextFieldDelegate{
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
